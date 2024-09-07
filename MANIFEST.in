@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include agentes *.css
+recursive-include agentes *.csv
+recursive-include agentes *.html
+recursive-include agentes *.ico
+recursive-include agentes *.js
+recursive-include agentes *.json
+recursive-include agentes *.md
+recursive-include agentes *.png
+recursive-include agentes *.py
+recursive-include agentes *.svg
+recursive-include agentes *.txt
+recursive-exclude agentes *.pyc
